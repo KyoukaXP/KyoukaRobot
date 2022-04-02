@@ -86,7 +86,7 @@ def get_readable_time(seconds: int) -> str:
 SIESTA_IMG = "https://telegra.ph/file/6d3e3ef24f64fb6e35df0.jpg"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
- You can support the project by contacting @saint_foire \
+ You can support the project by contacting @bukanyesus \
  Supporting isnt always financial! \
  Those who cannot provide monetary support are welcome to help us develop the bot at ."""
 
@@ -459,8 +459,8 @@ def siesta_about_callback(update, context):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton(text=gs(chat.id, "support_chat_link_button"), url="t.me/machinaxupport"),
-                        InlineKeyboardButton(text=gs(chat.id, "updates_channel_link_button"), url="https://t.me/machinaxupdate"),
+                        InlineKeyboardButton(text=gs(chat.id, "support_chat_link_button"), url="t.me/bukanyesus"),
+                        InlineKeyboardButton(text=gs(chat.id, "updates_channel_link_button"), url="https://t.me/c0de3val"),
                     ],
                     [
                         InlineKeyboardButton(text=gs(chat.id, "back_button"), callback_data="siesta_"),
