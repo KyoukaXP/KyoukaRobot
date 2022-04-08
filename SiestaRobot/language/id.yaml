@@ -608,9 +608,17 @@ logomarker_help: |
 musicplayer_help: |
     ──「 Musikplayer 」──
 
-    Bantuan Musik dapat mengakses dengan perintah yang berbeda dan bantuan bantuan dan pengaturan dasbor dukungan.
-    ❂ /mhelp - untuk bantuan modul musik
-    ❂ /msettings - untuk mengatur modul musik
+    *Bantuan Untuk Music Player.*
+
+    ❂ /play (Judul/Link) - Untuk Memutar Music/Video 
+    ❂ /end - Untuk Menghentikan Music/Video.
+    ❂ /resume - Untuk Melanjutkan Pemutaran Music/Video Yang Di Jeda.
+    ❂ /pause - Untuk Menjeda Music/Video.
+    ❂ /skip - Untuk Memutar Streaming Berikutnya Yang Ada Didalam Antrian.
+    ❂ /queue - Untuk Melihat Daftar Putar Lagu.
+    ❂ /song (Judul) - Untuk Mendownload Music/Video Youtube.
+    ❂ /setinggs - Untuk Mengatur Kualitas Music/Video.
+    ❂ /bug (alasan) - Untuk Melaporkan Masalah Pada Bot.
 
     CATATAN : JANGAN SPAMMING DI REQUEST LAGU ATAU VIDEO...
 notes_help: |
