@@ -608,9 +608,17 @@ logomarker_help: |
 musicplayer_help: |
     ──「 Musicplayer 」──
 
-    Help Music can access with different command and support dashboard help and setting.
-    ❂ /mhelp - for help music module
-    ❂ /msettings - for setting music module
+     *Help For Music Player.*
+
+     /play (Title/Link) - To Play Music/Video
+     /end - To Stop Music/Video.
+     /resume - To resume Paused Music/Video Playback.
+     /pause - To Pause Music/Video.
+     /skip - To Play the Next Stream In the Queue.
+     /queue - To View Song Playlist.
+     /song (Title) - To Download Youtube Music/Video.
+     /settings - To Set Music/Video Quality.
+     /bug (reason) - For Reporting Problems With Bots.
 
     NOTE : DON'T SPAMMING AT REQUEST SONG OR VIDEO...
 notes_help: |
