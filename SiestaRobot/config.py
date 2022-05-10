@@ -18,8 +18,8 @@ class Config(object):
     API_HASH = "awoo"
     TOKEN = "BOT_TOKEN"  # This var used to be API_KEY but it is now TOKEN, adjust accordingly.
     OWNER_ID = 945137470  # If you dont know, run the bot and do /id in your private chat with it, also an integer
-    OWNER_USERNAME = "saint_foire"
-    SUPPORT_CHAT = "machinaxsupport"  # Your own group for support, do not add the @
+    OWNER_USERNAME = "sintureveryday"
+    SUPPORT_CHAT = "kyoukasupport"  # Your own group for support, do not add the @
     JOIN_LOGGER = (
         -1001180007354
     )  # Prints any new group the bot is added to, prints just the name and ID.
@@ -70,6 +70,8 @@ class Config(object):
     AI_API_KEY = "awoo"  # For chatbot, get one from https://coffeehouse.intellivoid.net/dashboard
     BL_CHATS = []  # List of groups that you want blacklisted.
     SPAMMERS = None
+    ARQ_API_URL = "https://thearq.tech/"
+    ARQ_API_KEY = "BCYKVF-KYQWFM-JCMORU-RZWOFQ-ARQ"
     REM_BG_API_KEY = "xYCR1ZyK3ZsofjH7Y6hPcyzC"
     OPENWEATHERMAP_ID = "887da2c60d9f13fe78b0f9d0c5cbaade"
 
