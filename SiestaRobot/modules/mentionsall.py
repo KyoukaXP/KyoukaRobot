@@ -11,7 +11,7 @@ from SiestaRobot import telethn as Client
 
 spam_chats = []
 
-@Client.on(events.NewMessage(pattern="^/all ?(.*)"))
+@Client.on(events.NewMessage(pattern="^/apahayooooo ?(.*)"))
 async def mentionall(event):
   chat_id = event.chat_id
   if event.is_private:
@@ -74,7 +74,7 @@ async def mentionall(event):
   except:
     pass
 
-@Client.on(events.NewMessage(pattern="^/cancel$"))
+@Client.on(events.NewMessage(pattern="^/dahlahhh$"))
 async def cancel_spam(event):
   if not event.chat_id in spam_chats:
     return await event.respond('There is no proccess on going...')
