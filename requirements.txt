@@ -23,10 +23,8 @@ psutil
 aiohttp
 Pillow
 CurrencyConverter
-google_images_download
-google-api-python-client
-googletrans==4.0.0-rc1
-google-trans-new==1.1.9
+googletrans==4.0.0rc1
+google-trans-new
 jikanpy
 speedtest-cli
 coffeehouse
@@ -87,5 +85,3 @@ fuzzysearch
 img2pdf
 multicolorcaptcha
 git+https://github.com/python-telegram-bot/ptbcontrib.git
-git+https://github.com/TotallyNotChase/glitch-this.git
-pyYAML>=5.1.2
