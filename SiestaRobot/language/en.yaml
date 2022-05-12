@@ -721,7 +721,7 @@ tools_help: |
     ❂ /tgt: Get Telegraph Link of Replied Text
 
     Tagger
-    ❂ /tagall : for tag everyone at least 100 member first.
+    ❂ @all : for tag everyone at max 15.000 member.
 translator_help: |
     ──「 Translator 」──
 
