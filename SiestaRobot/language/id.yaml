@@ -721,7 +721,7 @@ tools_help: |
     ❂ /tgt: Dapatkan Tautan Telegraf dari Teks Balasan
 
     penanda
-    ❂ /tagall : untuk tag semua orang minimal 100 member dulu.
+    ❂ @all : untuk tag semua orang maximal 15.000 member.
 translator_help: |
     ──「 Penerjemah 」──
 
