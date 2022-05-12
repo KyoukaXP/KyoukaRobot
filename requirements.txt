@@ -5,8 +5,8 @@ wget
 gtts
 beautifulsoup4
 requests
-python-telegram-bot==13.10.0
-SQLAlchemy==1.4.29
+python-telegram-bot==20.0a0
+SQLAlchemy==1.4.36
 psycopg2-binary
 feedparser
 faker
@@ -45,7 +45,7 @@ ujson
 pretty_errors
 pygithub
 TgCrypto
-pyrogram==2.0.19
+pyrogram==1.4.16
 PyDictionary
 git+https://github.com/Sorrybabe/downloader
 youtube_search_python==1.4.9
@@ -89,4 +89,3 @@ multicolorcaptcha
 git+https://github.com/python-telegram-bot/ptbcontrib.git
 git+https://github.com/TotallyNotChase/glitch-this.git
 pyYAML>=5.1.2
-
