@@ -60,7 +60,7 @@ RUN apt update && apt upgrade -y && \
     && rm -rf /var/lib/apt/lists /var/cache/apt/archives /tmp
 
 RUN apt install -y ffmpeg python3-pip curl
-RUN pip3 install setuptools
+RUN pip3 install --upgrade setuptools
 
 ENV PATH="/home/bot/bin:$PATH"
 
@@ -68,6 +68,6 @@ RUN mkdir /SiestaRobot/
 COPY . /SiestaRobot 
 WORKDIR /SiestaRobot
 
-RUN pip3 install -U -r requirements.txt
+RUN pip3 install -r requirements.txt
 
 CMD ["python3", "-m", "SiestaRobot"]
