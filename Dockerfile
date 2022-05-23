@@ -60,7 +60,7 @@ RUN apt update && apt upgrade -y && \
     && rm -rf /var/lib/apt/lists /var/cache/apt/archives /tmp
 
 RUN apt install -y ffmpeg python3-pip curl
-RUN pip3 install --upgrade pip setuptools
+RUN pip3 install setuptools
 
 ENV PATH="/home/bot/bin:$PATH"
 
