@@ -1,5 +1,5 @@
 FROM debian:11
-FROM python:3.10.4-slim-buster
+FROM python:3.9-slim-buster
 
 WORKDIR /SiestaRobot/
 
